@@ -1,5 +1,11 @@
 require "liquidr/version"
 
+require "active_support"
+
 module Liquidr
-  # Your code goes here...
+  extend ActiveSupport::Autoload
+  
+  autoload :LinkTo
+  
 end
+Liquid::Template.register_tag('link_to', Liquidr::LinkTo)
