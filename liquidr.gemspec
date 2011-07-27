@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["Cyril@picard.ch"]
   s.homepage    = ""
   s.summary     = %q{ Adds some tag to the Liquid markup engine. }
-  s.description = %q{ Adds some tag to the Liquid markup engine. }
+  s.description = %q{ Adds some tag to the Liquid markup engine, such as link_to and url_for. }
 
   s.rubyforge_project = "liquidr"
 
